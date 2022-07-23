@@ -1,1 +1,5 @@
 --> navbar and footer for greatfull Zebra project.
+
+--> netlift link for issue-1: 
+
+https://jade-twilight-6ef8ad.netlify.app/

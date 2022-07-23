@@ -1,0 +1,424 @@
+
+
+/* navbar start */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+#navbar108{
+    display: flex;
+    width: 96%;
+    
+}
+/* #navbar108 div{
+border: 1px solid;
+
+} */
+#navbar108 > img{
+
+}
+
+ /* p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ } */
+ #ptag1st {
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+
+    color: rgb(94, 94, 94);
+    cursor: pointer;
+    font-weight: 500;
+    /* border: 1px solid; */
+ }
+
+ option, select{
+    height: 22px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(94, 94, 94);
+    cursor: pointer;
+    font-weight: 500;
+ }
+ #search_img{
+    height: 15px;
+    margin-top: 5px;
+
+
+    
+ } 
+ #search{
+    margin-left: -10px;
+    font-weight: 500;
+    color: rgb(97, 95, 95);
+ }
+ a{
+    text-decoration: none;
+    color: rgb(97, 95, 95);
+ }
+ #left_nav > h3,
+ #left_nav2 >h3{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    /* display: flex;
+    margin: auto; */
+ }
+
+
+#container1{
+    height: 70px;
+    width: 100%;
+
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+
+#logo{
+    width: 7%;
+    height: auto;
+    margin: 10px;
+    margin-left: 50px;
+    /* margin-top: 20px; */
+    
+}
+#content{
+    display: flex;
+    gap: 15px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 10px;
+    /* margin-right: -10px; */
+}
+#vl {
+    /* border: 2px solid grey; */
+    height: 35px;
+
+  }
+
+
+ #imgbox{
+    display: flex;
+    gap: 20px;
+    margin-left: 120px;
+    padding: 13px;
+} 
+
+#whatsapp_logo{
+    width: 15px;
+    height: 15px;
+    /* margin-top: 11px; */
+    /* margin-right: 4px; */
+   
+} 
+#left_nav{
+    width: 120px;
+    height: 40px;
+    
+    color: rgb(58, 168, 58) ;
+    /* border: 2px solid rgb(58, 168, 58); */
+    display: flex;
+    /* margin: auto; */
+    border-radius: 5px;
+    margin-top: 5px;
+    justify-content: center;
+
+}
+#left_nav2{
+    width:180px;
+    height: 40px;
+    color: rgb(49, 184, 202);
+    /* font-weight: 600; */
+    /* border: 2px solid rgb(49, 184, 202); */
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    
+}
+#shift{
+    cursor: pointer;
+    /* margin-top: 5px; */
+    border: 2px solid #25afad;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 220px;
+    color: #25afad;
+    background-color: white;
+}
+#shift2{
+    cursor: pointer;
+    border: 2px solid #25afad;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 220px;
+    color: #25D366;
+    background-color: white;
+}
+#signin{
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(97, 95, 95)
+
+ }
+
+/* ----------------------------------------------footer--------------------------------------- */
+#havequestion{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+#havequews{
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+
+#chatid:nth-child(2){
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    padding-top: 5px;
+    width: 16%;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;    
+}
+#chatid:nth-child(3){
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    height: 40px;
+    padding-top: 5px;
+    width: 16%;
+    font-size: 20px;
+    background-color: rgb(13, 198, 53);
+    color: white;
+    margin-left: -10px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;    
+}
+
+#fbimg{
+    height: 30px;
+    width: 30px;
+    margin-left: 8px;
+    /* margin: 10px; */
+    /* margin-top: 5px; */
+}
+
+#bigdiv{
+    background-color: #023630;
+    width: 100%;
+    /* height:auto; */
+    height: 500px;
+   
+}
+#innerdiv{
+    display: flex;
+}
+
+#Div1{
+    /* border: 1px solid red; */
+    width: 18%;
+    margin-left: 100px;
+}
+#Kettodiv{
+    width: 65px;
+    height: 60px;
+    /* margin-left: 130px; */
+}
+#kettoimg{
+    margin-top: 40px;
+    cursor: pointer;
+}
+/* #line{
+    width:50%;
+    text-align:left;
+    margin-left:0;
+    color: black;
+} */
+#socialhandles{
+    display: flex;
+    height: 20px;
+    gap: 5px;
+    margin-top: 35px;
+}
+#div3{
+    margin-top: 35px;
+}
+#follerssize{
+  font-size:20px;
+  color: white;
+}
+#follerssize2{
+    color: #77CAC8;
+    margin-top: 5px;
+    font-size: small;
+}
+#div4{
+    display: grid;
+    margin-top: 35px;
+    width: 190px;
+    /* border: 1px solid red; */
+    gap: 5px;
+    color: white;
+    
+}
+#Div2{
+    /* border: 1px solid red; */
+    width: 18%;
+    /* margin-left: 20px; */
+    
+}
+#causesdiv{
+    /* font-size: 25px; */
+    margin-top: 50px;
+    color: white;
+    /* border: 1px solid; */
+    cursor: pointer;
+    /* font-size: 20px; */
+ }
+ #li{
+    cursor: pointer;
+    margin-top: 15px;
+    gap: 11px;
+    display: grid;
+    color: white;
+    font-size: 16px;
+}
+
+ 
+ 
+
+#Div3{
+    /* border: 1px solid red; */
+    width: 18%;
+    /* margin-left: 20px; */
+}
+
+
+
+
+#Div4{
+    /* border: 1px solid red; */
+    width: 18%;
+    /* margin-left: 20px; */
+}
+#Div5{
+    /* border: 1px solid red; */
+    width: 18%;
+    /* margin-left: 20px; */
+}
+
+#paymentlogos{
+  margin-top: 30px;
+  display: flex;
+justify-content: flex-end;
+
+}
+#paymentlogos img{
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+#paymentlogo{
+    width: 60%;
+}
+hr{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 90px;
+    color: gray;
+}
+#copywrite{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+/* above static windows during scrolling  end */
+
+
+
+
+
+/* static windows during scrolling start*/
+
+
+#knowmore{
+    text-align: center;
+    font-size: 22px;
+    width: auto;
+    color: rgb(91, 89, 89);
+    font-weight: 500;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+#lform{
+    width: 100%;
+    height: 100px;
+    background-color: #c4eceb;
+    position: -webkit-sticky;
+    position: sticky;
+    /* margin-bottom: 0px; */
+    bottom: 0;
+}
+#lstart{
+    font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(21, 112, 98);
+}
+
+#form{
+    margin-top: 5px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 14px;
+    border-radius: 10px;
+    text-align: center;
+}
+#rightarrow{
+    height: 45px;
+    width: 45px;
+}
+#arrowbtn{
+    width: 50px;
+    height: 50px;
+    
+}
+
+/* static windows during scrolling end */
+
