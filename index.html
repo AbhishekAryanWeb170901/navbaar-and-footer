@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+/* navbar start */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+#navbar108{
+    display: flex;
+    width: 96%;
+    
+}
+/* #navbar108 div{
+border: 1px solid;
+
+} */
+#navbar108 > img{
+
+}
+
+ /* p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ } */
+ #ptag1st {
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+
+    color: rgb(94, 94, 94);
+    cursor: pointer;
+    font-weight: 500;
+    /* border: 1px solid; */
+ }
+
+ option, select{
+    height: 22px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(94, 94, 94);
+    cursor: pointer;
+    font-weight: 500;
+ }
+ #search_img{
+    height: 15px;
+    margin-top: 5px;
+
+
+    
+ } 
+ #search{
+    margin-left: -10px;
+    font-weight: 500;
+    color: rgb(97, 95, 95);
+ }
+ a{
+    text-decoration: none;
+    color: rgb(97, 95, 95);
+ }
+ #left_nav > h3,
+ #left_nav2 >h3{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    /* display: flex;
+    margin: auto; */
+ }
+
+
+#container1{
+    height: 70px;
+    width: 100%;
+
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+
+#logo{
+    width: 7%;
+    height: auto;
+    margin: 10px;
+    margin-left: 50px;
+    /* margin-top: 20px; */
+    
+}
+#content{
+    display: flex;
+    gap: 15px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 10px;
+    /* margin-right: -10px; */
+}
+#vl {
+    /* border: 2px solid grey; */
+    height: 35px;
+
+  }
+
+
+ #imgbox{
+    display: flex;
+    gap: 20px;
+    margin-left: 120px;
+    padding: 13px;
+} 
+
+#whatsapp_logo{
+    width: 15px;
+    height: 15px;
+    /* margin-top: 11px; */
+    /* margin-right: 4px; */
+   
+} 
+#left_nav{
+    width: 120px;
+    height: 40px;
+    
+    color: rgb(58, 168, 58) ;
+    /* border: 2px solid rgb(58, 168, 58); */
+    display: flex;
+    /* margin: auto; */
+    border-radius: 5px;
+    margin-top: 5px;
+    justify-content: center;
+
+}
+#left_nav2{
+    width:180px;
+    height: 40px;
+    color: rgb(49, 184, 202);
+    /* font-weight: 600; */
+    /* border: 2px solid rgb(49, 184, 202); */
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    
+}
+#shift{
+    cursor: pointer;
+    /* margin-top: 5px; */
+    border: 2px solid #25afad;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 220px;
+    color: #25afad;
+    background-color: white;
+}
+#shift2{
+    cursor: pointer;
+    border: 2px solid #25afad;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 220px;
+    color: #25D366;
+    background-color: white;
+}
+#signin{
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(97, 95, 95)
+
+ }
+
+/* ----------------------------------------------footer--------------------------------------- */
+#havequestion{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+#havequews{
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+
+#chatid:nth-child(2){
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    padding-top: 5px;
+    width: 16%;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;    
+}
+#chatid:nth-child(3){
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    height: 40px;
+    padding-top: 5px;
+    width: 16%;
+    font-size: 20px;
+    background-color: rgb(13, 198, 53);
+    color: white;
+    margin-left: -10px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;    
+}
+
+#fbimg{
+    height: 30px;
+    width: 30px;
+    margin-left: 8px;
+    /* margin: 10px; */
+    /* margin-top: 5px; */
+}
+
+#bigdiv{
+    background-color: #023630;
+    width: 100%;
+    /* height:auto; */
+    height: 500px;
+   
+}
+#innerdiv{
+    display: flex;
+}
+
+#Div1{
+    /* border: 1px solid red; */
+    width: 18%;
+    margin-left: 100px;
+}
+#Kettodiv{
+    width: 65px;
+    height: 60px;
+    /* margin-left: 130px; */
+}
+#kettoimg{
+    margin-top: 40px;
+    cursor: pointer;
+}
+/* #line{
+    width:50%;
+    text-align:left;
+    margin-left:0;
+    color: black;
+} */
+#socialhandles{
+    display: flex;
+    height: 20px;
+    gap: 5px;
+    margin-top: 35px;
+}
+#div3{
+    margin-top: 35px;
+}
+#follerssize{
+  font-size:20px;
+  color: white;
+}
+#follerssize2{
+    color: #77CAC8;
+    margin-top: 5px;
+    font-size: small;
+}
+#div4{
+    display: grid;
+    margin-top: 35px;
+    width: 190px;
+    /* border: 1px solid red; */
+    gap: 5px;
+    color: white;
+    
+}
+#Div2{
+    /* border: 1px solid red; */
+    width: 18%;
+    /* margin-left: 20px; */
+    
+}
+#causesdiv{
+    /* font-size: 25px; */
+    margin-top: 50px;
+    color: white;
+    /* border: 1px solid; */
+    cursor: pointer;
+    /* font-size: 20px; */
+ }
+ #li{
+    cursor: pointer;
+    margin-top: 15px;
+    gap: 11px;
+    display: grid;
+    color: white;
+    font-size: 16px;
+}
+
+ 
+ 
+
+#Div3{
+    /* border: 1px solid red; */
+    width: 18%;
+    /* margin-left: 20px; */
+}
+
+
+
+
+#Div4{
+    /* border: 1px solid red; */
+    width: 18%;
+    /* margin-left: 20px; */
+}
+#Div5{
+    /* border: 1px solid red; */
+    width: 18%;
+    /* margin-left: 20px; */
+}
+
+#paymentlogos{
+  margin-top: 30px;
+  display: flex;
+justify-content: flex-end;
+
+}
+#paymentlogos img{
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+#paymentlogo{
+    width: 60%;
+}
+hr{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 90px;
+    color: gray;
+}
+#copywrite{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+
+
+/* static homepage windows start */
+
+
+#knowmore{
+    text-align: center;
+    font-size: 22px;
+    width: auto;
+    color: rgb(91, 89, 89);
+    font-weight: 500;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+#lform{
+    width: 100%;
+    height: 100px;
+    background-color: #c4eceb;
+    position: -webkit-sticky;
+    position: sticky;
+    /* margin-bottom: 0px; */
+    bottom: 0;
+}
+#lstart{
+    font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(21, 112, 98);
+}
+
+#form{
+    margin-top: 5px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 14px;
+    border-radius: 10px;
+    text-align: center;
+}
+#rightarrow{
+    height: 45px;
+    width: 45px;
+}
+#arrowbtn{
+    width: 50px;
+    height: 50px;
+    
+}
+
+/* --------------------------button---------- */
+/* #gg-arrow-right-o {
+    box-sizing: border-box;
+    position: relative; 
+    display: block;
+    width:42px;
+    height: 42px;
+     border: 2px solid;
+    transform: scale(var(--ggs,1));
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #01a3a1;
+}
+#gg-arrow-right-o::after,
+#gg-arrow-right-o::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    right: 4px;
+     background-color: aliceblue; 
+}
+#gg-arrow-right-o::after {
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    bottom: 6px;
+     background-color: aliceblue; 
+}
+#gg-arrow-right-o::before {
+    width: 10px;
+    height: 2px;
+    bottom: 8px;
+    background: currentColor;
+
+    background-color: aliceblue; 
+    
+} */
+
+
+
+/* navbar/footer end */
+
+    </style>
+</head>
+<body>
+
+
+
+    <!-- navbar start -->
+    <div id="navbar108">
+<div id="logo">
+    <a href="">
+    <img src="https://ketto.gumlet.io/assets/images/logo-light-bg.svg?w=70&dpr=1.0"></a>
+   </div>
+   <div id="content">
+    <a href=""><p id="ptag1st">Browse Fundraisers</p></a>
+   
+    <select id="">
+       <option value=""> Fundraiser For</option>
+        <option value="">Treatment</option>
+        <option value="">NGO Charity</option>
+        <option value="">Other Causes</option>
+      
+      </select>
+    <a href=""><p id="ptag1st">How it works</p></a>
+    <div id="vl"></div>
+    <img id="search_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfbiyVfcLXpyNbNJHupID7hbeDmZytHMJ42Q&usqp=CAU" >
+    <p id="search">Search</p>
+   </div>
+
+    <div id="imgbox">
+   <div id="left_nav">
+  
+    <button id="shift2">
+        <img id="whatsapp_logo" src="https://cdn-icons-png.flaticon.com/128/733/733585.png">
+        Chat</button>
+</div>
+
+<div id="left_nav2">
+     <button id="shift">Start a Fundraiser</button>
+ </div>
+ <h3 id="signin" >Sign In</h3>
+</div>
+
+</div>
+    <!-- navbar end -->
+    
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+    <!-- footer star -->
+
+    <div id="footer">
+        <div id="havequestion">
+            <p id="havequews">Have a question? Check out our FAQs page or chat with us on Facebook or WhatsApp.</p>
+            <!-- <div id="btnuni"> -->
+                
+                <button id="chatid"><img id="fbimg" src="https://cdn-icons-png.flaticon.com/128/1312/1312139.png" alt="">
+                    CHAT WITH US</button>  
+            <!-- </div> -->
+            <!-- <div id="btnuni"> -->
+               
+                <button id="chatid"> <img id="fbimg" src="https://cdn.usbrandcolors.com/images/logos/whatsapp-logo.svg" alt="">
+                    CHAT WITH US</button>  
+            <!-- </div> -->
+        </div>
+        </div>
+    
+        <div id="bigdiv">
+            <div id="innerdiv">
+            <div id="Div1">
+            <div id="Kettodiv">
+                <img id="kettoimg" src="https://kettocdn.gumlet.io/images/logo-dark-bg.svg?w=80&dpr=1.0" alt="">
+                <!-- <div id="line"></div> -->
+                <div id="socialhandles">
+                    <img src="https://cdn-icons-png.flaticon.com/128/174/174848.png" alt="fb">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2111/2111580.png" alt="twitter">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2111/2111368.png" alt="linkedin">
+                    <img src="https://cdn-icons-png.flaticon.com/128/124/124015.png" alt="youtube">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1409/1409946.png" alt="insta">
+                    <img src="https://cdn-icons-png.flaticon.com/128/270/270830.png" alt="whatsapp">
+                </div>
+                <div id="div3">
+                    <p id="follerssize">1.5M +</p>
+                    <p id="follerssize2">Followers</p>
+                </div>
+                <div id="div4">
+                    <p>For any queries</p>
+                    <p>Email:info@ketto.org</p>
+                    <p>Contact No:+919930088522</p>
+                </div>
+            </div>
+        </div>
+        <div id="Div2">
+            <div id="causesdiv">
+                <h2>Causes</h2>
+            </div>
+            <div id="li">
+                 <p>Medical crowdfunding</p>
+                 <p>Cancer Crowdfunding</p>
+                 <p>Education Crowdfunding</p>
+                 <p>Creative Fundraising</p>
+                 <p>Child Welfare</p>
+                 <p>Animal Fundraisers</p>
+                 <p>COVID-19 Relief Fund</p>
+            </div>
+                
+        </div>
+    
+    
+        <div id="Div3">
+            <div id="causesdiv">
+                <h2>How it works?</h2>
+            </div>
+            <div id="li">
+                 <p>Fundraising for NGOs</p>
+                 <p>Sponsor A Child</p>
+                 <p>Fundraising Tips</p>
+                 <p>What is Crowdfunding?</p>
+                 <p>Corporates</p>
+                 <p>Withdraw Funds</p>
+                 <p>Browse Fundraiser</p>
+            </div>
+    
+    
+        </div>
+        <div id="Div4">
+            <div id="causesdiv">
+                <h2>About Us</h2>
+            </div>
+            <div id="li">
+                 <p>Team Ketto</p>
+                 <p>In The News</p>
+                 <p>Our Partners</p>
+                 <p>Careers</p>
+                 <p>Ketto Blog</p>
+                 <p>Success Stories</p>
+            </div>
+        </div>
+        <div id="Div5">
+            <div id="causesdiv">
+                <h2>Support</h2>
+            </div>
+            <div id="li">
+                 <p>Medical Finance</p>
+                 <p>FAQs & Help Center</p>
+                 <p>Are Ketto Campaigns Genuine?</p>
+                 <p>Fundraiser Video</p>
+                 <p>Trust & Safety</p>
+                 <p>Plans & Pricing</p>
+                 <p>Contact Us</p>
+            </div>
+        </div>
+    
+        
+        </div>
+    
+    
+        <div>
+            <div id="paymentlogos">
+                <img id="paymentlogo" src="https://ketto.gumlet.io/assets/images/homepage/footer-secured-card.png?w=457&dpr=1.5" alt="">  
+        
+           </div>
+           <hr>
+           <div id="copywrite">
+            <p>Copyright © 2022 Ketto Online Ventures Pvt Ltd. All Rights Reserved. Terms of Use | Privacy Policy |AML Policy | Use of cookies </p>
+    
+           </div>
+        </div>
+    </div>
+
+
+
+
+    <p id="knowmore">
+        Know more about Ketto Crowdfunding Platform
+    </p>
+    
+    <!-- </div> -->
+
+    <div id="lform">
+
+        <p id="lstart">
+            START YOUR MEDICAL FUNDRAISER RIGHT AWAY
+        </p>
+        <div id="form">
+            <input type="text" placeholder="How much do you want to raise?">
+            <input type="text" placeholder="Patient's full name">
+            <input type="text" placeholder="The Patient is my...">
+            <img id="arrowbtn" src="https://cdn-icons-png.flaticon.com/512/56/56814.png" alt="">
+        </div>
+    </div>
+        
+
+    <!-- footer end -->
+</body>
+</html>
